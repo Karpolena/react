@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Aside() {
+const Aside = ({title}) => {
     return (
         <aside className="aside" style={{border: '1px solid green'}}>
-        Aside
+        {title}
         </aside>
     );
 }

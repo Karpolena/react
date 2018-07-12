@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Header() {
+const Header = (props) =>{
     return (
         <header className="header" style={{border: '1px solid red'}}>
-        Header
+            {props.title}
+            {props.children}
+            {props.name}
         </header>
     );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer() {
+const Footer = ({title}) => {
     return (
         <footer className="footer" style={{border: '1px solid pink'}}>
-        Footer
+        {title}
         </footer>
     );
 }
